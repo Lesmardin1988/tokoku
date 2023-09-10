@@ -1,0 +1,128 @@
+/* Page */
+
+#page {
+	float: center;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	border:1px solid #000;
+		-moz-border-radius:15px; 
+		-webkit-border-radius:15px;
+}
+/*---------------------------------------------------------------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0;
+	background-image:url(images/BS19065.jpg);
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#000000;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #8b2204;
+}
+
+h2 { font-size: 20px; }
+/*---------------------------------------------------------------------------------*/
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 75px;
+	margin: 0 auto;
+
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/* LOGO  */
+
+#logo {
+	width: 1000px;
+	height: 290px;
+	margin: 0 auto;
+	background: url(images/logo.png) no-repeat center;
+	border:1px solid #000;
+		-moz-border-radius:15px; 
+		-webkit-border-radius:15px;
+
+}
+/*---------------------------------------------------------------------------------*/
+blockquote { }
+
+a { color: #000000; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+/* Content */
+
+#content {
+	float: center;
+	width: 740px;
+}
+
+/*------------------------------------------------------------------------------*/
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: normal;
+	font-size: 12px;
+	
+	padding: 20px;
+    text-align: center;
+    background: rgb(255, 217, 0);
+    background-color:#00AEEF;
+
+    margin-top: 20px;
+  	border:1px solid #000;
+		-moz-border-radius:15px; 
+		-webkit-border-radius:15px;
+}
+
+#footer a {
+	color: #000000;
+}
+ /* CSS Document */
+

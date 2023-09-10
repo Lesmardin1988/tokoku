@@ -1,0 +1,283 @@
+/* Page */
+
+#page {
+	float: center;
+	width: 920px;
+	margin: 0 auto;
+	padding: 0px;
+}
+/*---------------------------------------------------------------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0;
+	background: url(images/img02.jpg) repeat left top;
+	line-height: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #8b2204;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #8b2204;
+}
+
+h1 { font-size: 44px; }
+h2 { font-size: 20px; }
+/*---------------------------------------------------------------------------------*/
+
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 75px;
+	margin: 0 auto;
+	background: url(images/img03.jpg) no-repeat left top;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	text-align: justify;
+}
+
+ul, ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/* Menu */
+
+#menu {
+	float: left;
+}
+
+#menu ul {
+	margin: 0;
+	padding-top: 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 0px 30px;
+	background: url(images/img05.jpg) no-repeat left 2px;
+	text-decoration: none;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+#menu a:hover { text-decoration: underline; }
+
+#menu .current_page_item {
+	display: block;
+	margin: 0px;
+	background: none;
+	color: #000000;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/* LOGO  */
+
+#logo {
+	width: 1000px;
+	height: 290px;
+	margin: 0 auto;
+	background: url(images/img04.jpg) no-repeat left top;
+}
+/*---------------------------------------------------------------------------------*/
+
+/* Content */
+
+#content {
+	float: right;
+	width: 640px;
+}
+/*---------------------------------------------------------------------------------*/
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 250px;
+	border-right: #fefdfd  dashed 1px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0px 40px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	border: none;
+}
+
+#sidebar li {
+	margin-bottom: 0px;
+	padding: 0 0 20px 0px;
+}
+
+#sidebar li ul {
+	line-height: 200%;
+	background: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 20px;
+	background: none;
+}
+
+#sidebar p {
+	margin: 0;
+	padding: 0 20px;
+}
+
+#sidebar h2 {
+	height: 50px;
+	margin: 0 0 40px 0px;
+	padding: 20px 10px 10px 50px;
+	background: url(images/img06.gif) no-repeat left top;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#sidebar p {
+	line-height: 200%;
+	padding-bottom: 20px;
+}
+
+#sidebar a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#sidebar a:hover { text-decoration: underline; }
+
+//blockquote { }
+
+img.left {
+	float: center;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+/*---------------------------------------------------------------------------------*/
+
+/* Post */
+.post {
+	margin-bottom: 25px;
+}
+
+.post .title {
+	height: 30px;
+	margin-bottom: 3px;
+	border-bottom: #fefdfd  dashed 1px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.post .date {
+	float: right;
+	margin-top: -35px;
+	padding-right: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fefdfd;
+}
+
+.post .meta {
+	margin: -30px  0 3px 25px;
+	padding: 2px 30px 2px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #fefdfd;
+}
+
+.post .meta a { color: #ff7900; }
+
+.post .entry {
+	padding: 20px 0px;
+}
+
+.post .links {
+	margin: 0 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.post .links .comments {
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+/*----------------------------------------------------------------------------------------------*/
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img01.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0;
+	padding: 22px 0;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: normal;
+	font-size: 12px;
+	color: #6c1d03;
+}
+
+#footer a {
+	color: #000000;
+}
+ 
